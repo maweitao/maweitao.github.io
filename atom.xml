@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>仰望星空，脚踏实地</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://maweitao.gihub.io/"/>
+  <updated>2016-04-09T11:47:54.000Z</updated>
+  <id>http://maweitao.gihub.io/</id>
+  
+  <author>
+    <name>maweitao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo基本命令</title>
+    <link href="http://maweitao.gihub.io/2016/04/09/hexo%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <id>http://maweitao.gihub.io/2016/04/09/hexo基本命令/</id>
+    <published>2016-04-09T11:39:51.000Z</published>
+    <updated>2016-04-09T11:47:54.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick_Start&quot;&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create_a_new_post&quot;&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run_server&quot;&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate_static_files&quot;&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy_to_remote_sites&quot;&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;清除静态文件，以便重新生成&quot;&gt;清除静态文件，以便重新生成&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo clean&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://maweitao.gihub.io/all-categories/hexo/"/>
+    
+    
+      <category term="hexo快速命令" scheme="http://maweitao.gihub.io/all-tags/hexo%E5%BF%AB%E9%80%9F%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>马克飞象</title>
+    <link href="http://maweitao.gihub.io/2015/11/20/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1/"/>
+    <id>http://maweitao.gihub.io/2015/11/20/马克飞象/</id>
+    <published>2015-11-20T11:50:22.000Z</published>
+    <updated>2016-04-09T11:44:52.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;欢迎使用马克飞象&quot;&gt;欢迎使用马克飞象&lt;/h1&gt;&lt;p&gt;@(示例笔记本)[马克飞象|帮助|Markdown]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTeX&lt;/em&gt; 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;得心应手&lt;/strong&gt; ：简洁高效的编辑器，提供&lt;a href=&quot;http://maxiang.info/client_zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;桌面客户端&lt;/a&gt;以及&lt;a href=&quot;https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;离线Chrome App&lt;/a&gt;，支持移动端 Web；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深度整合&lt;/strong&gt; ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;Markdown简介&quot;&gt;Markdown简介&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— &lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基百科&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为&lt;strong&gt;粗体&lt;/strong&gt;或者&lt;em&gt;斜体&lt;/em&gt;，创建一个&lt;a href=&quot;http://www.example.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;链接&lt;/a&gt;或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按&lt;code&gt;Ctrl + /&lt;/code&gt;查看帮助。 &lt;/p&gt;
+&lt;h3 id=&quot;代码块&quot;&gt;代码块&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;decorator&quot;&gt;@requires_authorization&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;somefunc&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(param1=&lt;span class=&quot;string&quot;&gt;&#39;&#39;&lt;/span&gt;, param2=&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&#39;&#39;&#39;A docstring&#39;&#39;&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; param1 &amp;gt; param2: &lt;span class=&quot;comment&quot;&gt;# interesting&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;Greater&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; (param2 - param1 + &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;None&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;SomeClass&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;pass&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;prompt&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;message = &lt;span class=&quot;string&quot;&gt;&#39;&#39;&#39;interpreter&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;prompt&quot;&gt;... &lt;/span&gt;prompt&#39;&#39;&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;LaTeX_公式&quot;&gt;LaTeX 公式&lt;/h3&gt;&lt;p&gt;可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：&lt;/p&gt;
+&lt;p&gt;$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$&lt;/p&gt;
+&lt;h3 id=&quot;表格&quot;&gt;表格&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Item&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Value&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Qty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Computer&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;1600 USD&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Phone&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;12 USD&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Pipe&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;1 USD&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;流程图&quot;&gt;流程图&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;st=&amp;#62;start: Start&amp;#10;e=&amp;#62;end&amp;#10;op=&amp;#62;operation: My Operation&amp;#10;cond=&amp;#62;condition: Yes or No?&amp;#10;&amp;#10;st-&amp;#62;op-&amp;#62;cond&amp;#10;cond(yes)-&amp;#62;e&amp;#10;cond(no)-&amp;#62;op&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;以及时序图:&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Alice-&amp;#62;Bob: Hello Bob, how are you?&amp;#10;Note right of Bob: Bob thinks&amp;#10;Bob--&amp;#62;Alice: I am good thanks!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;想了解更多，请查看&lt;strong&gt;流程图&lt;/strong&gt;&lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;语法&lt;/a&gt;以及&lt;strong&gt;时序图&lt;/strong&gt;&lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;语法&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;复选框&quot;&gt;复选框&lt;/h3&gt;&lt;p&gt;使用 &lt;code&gt;- [ ]&lt;/code&gt; 和 &lt;code&gt;- [x]&lt;/code&gt; 语法可以创建复选框，实现 todo-list 等功能。例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[x] 已完成事项&lt;/li&gt;
+&lt;li&gt;[ ] 待办事项1&lt;/li&gt;
+&lt;li&gt;[ ] 待办事项2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在&lt;strong&gt;马克飞象&lt;/strong&gt;中修改 Markdown 原文才可生效。下个版本将会全面支持。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;印象笔记相关&quot;&gt;印象笔记相关&lt;/h2&gt;&lt;h3 id=&quot;笔记本和标签&quot;&gt;笔记本和标签&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;增加了&lt;code&gt;@(笔记本)[标签A|标签B]&lt;/code&gt;语法, 以选择笔记本和添加标签。 &lt;strong&gt;绑定账号后&lt;/strong&gt;， 输入&lt;code&gt;(&lt;/code&gt;自动会出现笔记本列表，请从中选择。&lt;/p&gt;
+&lt;h3 id=&quot;笔记标题&quot;&gt;笔记标题&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;会自动使用文档内出现的第一个标题作为笔记标题。例如本文，就是第一行的 &lt;code&gt;欢迎使用马克飞象&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;快捷编辑&quot;&gt;快捷编辑&lt;/h3&gt;&lt;p&gt;保存在印象笔记中的笔记，右上角会有一个红色的编辑按钮，点击后会回到&lt;strong&gt;马克飞象&lt;/strong&gt;中打开并编辑该笔记。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;目前用户在印象笔记中单方面做的任何修改，马克飞象是无法自动感知和更新的。所以请务必回到马克飞象编辑。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;数据同步&quot;&gt;数据同步&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;通过&lt;strong&gt;将Markdown原文以隐藏内容保存在笔记中&lt;/strong&gt;的精妙设计，实现了对Markdown的存储和再次编辑。既解决了其他产品只是单向导出HTML的单薄，又规避了服务端存储Markdown带来的隐私安全问题。这样，服务端仅作为对印象笔记 API调用和数据转换之用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;隐私声明：用户所有的笔记数据，均保存在印象笔记中。马克飞象不存储用户的任何笔记数据。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;离线存储&quot;&gt;离线存储&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;使用浏览器离线存储将内容实时保存在本地，不必担心网络断掉或浏览器崩溃。为了节省空间和避免冲突，已同步至印象笔记并且不再修改的笔记将删除部分本地缓存，不过依然可以随时通过&lt;code&gt;文档管理&lt;/code&gt;打开。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;虽然浏览器存储大部分时候都比较可靠，但印象笔记作为专业云存储，更值得信赖。以防万一，&lt;strong&gt;请务必经常及时同步到印象笔记&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;编辑器相关&quot;&gt;编辑器相关&lt;/h2&gt;&lt;h3 id=&quot;设置&quot;&gt;设置&lt;/h3&gt;&lt;p&gt;右侧系统菜单（快捷键&lt;code&gt;Ctrl + M&lt;/code&gt;）的&lt;code&gt;设置&lt;/code&gt;中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。&lt;/p&gt;
+&lt;h3 id=&quot;快捷键&quot;&gt;快捷键&lt;/h3&gt;&lt;p&gt;帮助    &lt;code&gt;Ctrl + /&lt;/code&gt;&lt;br&gt;同步文档    &lt;code&gt;Ctrl + S&lt;/code&gt;&lt;br&gt;创建文档    &lt;code&gt;Ctrl + Alt + N&lt;/code&gt;&lt;br&gt;最大化编辑器    &lt;code&gt;Ctrl + Enter&lt;/code&gt;&lt;br&gt;预览文档 &lt;code&gt;Ctrl + Alt + Enter&lt;/code&gt;&lt;br&gt;文档管理    &lt;code&gt;Ctrl + O&lt;/code&gt;&lt;br&gt;系统菜单    &lt;code&gt;Ctrl + M&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;加粗    &lt;code&gt;Ctrl + B&lt;/code&gt;&lt;br&gt;插入图片    &lt;code&gt;Ctrl + G&lt;/code&gt;&lt;br&gt;插入链接    &lt;code&gt;Ctrl + L&lt;/code&gt;&lt;br&gt;提升标题    &lt;code&gt;Ctrl + H&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;关于收费&quot;&gt;关于收费&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;为新用户提供 10 天的试用期，试用期过后需要&lt;a href=&quot;maxiang.info/vip.html&quot;&gt;续费&lt;/a&gt;才能继续使用。未购买或者未及时续费，将不能同步新的笔记。之前保存过的笔记依然可以编辑。&lt;/p&gt;
+&lt;h2 id=&quot;反馈与建议&quot;&gt;反馈与建议&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;微博：&lt;a href=&quot;http://weibo.com/u/2788354117&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@马克飞象&lt;/a&gt;，&lt;a href=&quot;http://weibo.com/ggock&quot; title=&quot;开发者个人账号&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@GGock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;邮箱：&lt;a href=&quot;&amp;#x6d;&amp;#97;&amp;#105;&amp;#x6c;&amp;#116;&amp;#x6f;&amp;#x3a;&amp;#104;&amp;#117;&amp;#x73;&amp;#x74;&amp;#103;&amp;#x6f;&amp;#x63;&amp;#x6b;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#104;&amp;#117;&amp;#x73;&amp;#x74;&amp;#103;&amp;#x6f;&amp;#x63;&amp;#x6b;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。&lt;/p&gt;
+&lt;p&gt;[^demo]: 这是一个示例脚注。请查阅 &lt;a href=&quot;https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MultiMarkdown 文档&lt;/a&gt; 关于脚注的说明。 &lt;strong&gt;限制：&lt;/strong&gt; 印象笔记的笔记内容使用 &lt;a href=&quot;https://dev.yinxiang.com/doc/articles/enml.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ENML&lt;/a&gt; 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致&lt;code&gt;脚注&lt;/code&gt;和&lt;code&gt;TOC&lt;/code&gt;无法正常点击。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;欢迎使用马克飞象&quot;&gt;欢迎使用马克飞象&lt;/h1&gt;&lt;p&gt;@(示例笔记本)[马克飞象|帮助|Markdown]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://maweitao.gihub.io/all-categories/Markdown/"/>
+    
+    
+      <category term="Markdown格式" scheme="http://maweitao.gihub.io/all-tags/Markdown%E6%A0%BC%E5%BC%8F/"/>
+    
+  </entry>
+  
+</feed>
